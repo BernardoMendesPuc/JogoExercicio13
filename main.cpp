@@ -160,7 +160,7 @@ int main()
 
                         if (bK)
                         {
-                            cout << "\n\n* * * * Voce recebeu a bencao de Bul-Kathos! * * * *\nNesse turno voce tem acesso a Espada Lendaria Voto Solene de Bul-Kathos nas opcoes de Armas!";
+                            cout << "\n\n Voce recebeu a bencao de Bul-Kathos! * * * *\nNesse turno voce tem acesso a Espada Lendaria Voto Solene de Bul-Kathos";
 
                             if (salvar)
                             {
@@ -194,7 +194,7 @@ int main()
                         }
                         if (bK)
                         {
-                            cout << "\n\n* * * * Voce recebeu a bencao de Bul-Kathos! * * * *\nNesse turno voce tem acesso a Espada Lendaria Voto Solene de Bul-Kathos nas opcoes de Armas!";
+                            cout << "\n\nVoce recebeu a bencao de Bul-Kathos! \nNesse turno voce tem acesso a Espada Lendaria Voto Solene de Bul-Kathos";
                             if (salvar)
                             {
                                 arq.open(nomeArquivo, ios::app);
@@ -296,14 +296,14 @@ int main()
                                         diferenca = vidaAntes - p2.getVida();
                                         cout << "\n\n"
                                              << p1.getNome() << " usou a magia " << getMagia(magia) << " e "
-                                             << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                             << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n";
 
                                         if (salvar)
                                         {
                                             arq.open(nomeArquivo, ios::app);
                                             arq << "\n\n"
                                                 << p1.getNome() << " usou a magia " << getMagia(magia) << " e "
-                                                << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                                << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n";
                                             arq.close();
                                         }
                                     }
@@ -329,13 +329,13 @@ int main()
                                         diferenca = p1.getVida() - vidaAntes;
                                         cout << "\n\n"
                                              << p1.getNome() << " usou a magia " << getMagia(magia)
-                                             << " e curou " << diferenca << " de vida!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                             << " e curou " << diferenca << " de vida!\n\n";
                                         if (salvar)
                                         {
                                             arq.open(nomeArquivo, ios::app);
                                             arq << "\n\n"
                                                 << p1.getNome() << " usou a magia " << getMagia(magia)
-                                                << " e curou " << diferenca << " de vida!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                                << " e curou " << diferenca << " de vida!\n\n";
                                             arq.close();
                                         }
                                     }
@@ -374,14 +374,14 @@ int main()
 
                                         cout << "\n\n"
                                              << p2.getNome() << " usou a magia " << getMagia(magia) << " e "
-                                             << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                             << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n";
 
                                         if (salvar)
                                         {
                                             arq.open(nomeArquivo, ios::app);
                                             arq << "\n\n"
                                                 << p2.getNome() << " usou a magia " << getMagia(magia) << " e "
-                                                << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                                << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n";
                                             arq.close();
                                         }
                                     }
@@ -407,14 +407,14 @@ int main()
                                         diferenca = p2.getVida() - vidaAntes;
                                         cout << "\n\n"
                                              << p2.getNome() << " usou a magia " << getMagia(magia)
-                                             << " e curou " << diferenca << " de vida!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                             << " e curou " << diferenca << " de vida!\n\n";
 
                                         if (salvar)
                                         {
                                             arq.open(nomeArquivo, ios::app);
                                             arq << "\n\n"
                                                 << p2.getNome() << " usou a magia " << getMagia(magia)
-                                                << " e curou " << diferenca << " de vida!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                                << " e curou " << diferenca << " de vida!\n\n";
                                             arq.close();
                                         }
                                     }
@@ -455,14 +455,14 @@ int main()
                                     diferenca = vidaAntes - p2.getVida();
                                     cout << "\n\n"
                                          << p1.getNome() << " usou a arma " << getArma(arma) << " e "
-                                         << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                         << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n";
 
                                     if (salvar)
                                     {
                                         arq.open(nomeArquivo, ios::app);
                                         arq << "\n\n"
                                             << p1.getNome() << " usou a arma " << getArma(arma) << " e "
-                                            << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                            << p2.getNome() << " recebeu " << diferenca << " de dano!\n\n";
                                         arq.close();
                                     }
                                 }
@@ -483,7 +483,7 @@ int main()
                                     {
                                         arq.open(nomeArquivo, ios::app);
                                         arq << "\n\n"
-                                            << p1.getNome() << " tentou usar a arma " << getArma(arma) << " mas " << p2.getNome() << " desviou e nao recebeu dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                            << p1.getNome() << " tentou usar a arma " << getArma(arma) << " mas " << p2.getNome() << " desviou e nao recebeu dano!\n\n";
                                         arq.close();
                                     }
                                 }
@@ -507,13 +507,13 @@ int main()
                                     diferenca = vidaAntes - p1.getVida();
                                     cout << "\n\n"
                                          << p2.getNome() << " usou a arma " << getArma(arma) << " e "
-                                         << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                         << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n";
                                     if (salvar)
                                     {
                                         arq.open(nomeArquivo, ios::app);
                                         arq << "\n\n"
                                             << p2.getNome() << " usou a arma " << getArma(arma) << " e "
-                                            << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                            << p1.getNome() << " recebeu " << diferenca << " de dano!\n\n";
                                         arq.close();
                                     }
                                 }
@@ -534,7 +534,7 @@ int main()
                                     {
                                         arq.open(nomeArquivo, ios::app);
                                         arq << "\n\n"
-                                            << p2.getNome() << " tentou usar a arma " << getArma(arma) << " mas " << p1.getNome() << " desviou e nao recebeu dano!\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *";
+                                            << p2.getNome() << " tentou usar a arma " << getArma(arma) << " mas " << p1.getNome() << " desviou e nao recebeu dano!\n\n";
                                         arq.close();
                                     }
                                 }
