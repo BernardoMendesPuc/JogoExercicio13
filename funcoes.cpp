@@ -45,7 +45,7 @@ int usarMagia(char codMagia, Personagem &invocador, Personagem &receptor)
 
     if (invocador.getMana() < gastoMana)
     {
-        cout << "\nVoce nao possui mana suficiente para essa magia! :(\nEscolha outra acao.";
+        cout << "\nVoce nao possui mana necessaria! :(\nEscolha outra acao.";
         return 0;
     }
     else
