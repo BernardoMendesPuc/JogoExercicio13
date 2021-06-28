@@ -168,13 +168,13 @@ void escolherPersonagem(Personagem &p, int jogador)
     system("pause");
     system("cls");
 
-    cout << "\n\nESCOLHA SEU PERSONAGEM, JOGADOR " << jogador;
+    cout << "\n\nEscolha seu Personagem " << jogador;
 
     cout << "\n\nHUMANOS:";
     cout << "\n   1 - Guerreiro";
     cout << "\n   2 - Ladrao";
     cout << "\n   3 - Mago";
-    cout << "\n   4 - Paladino";
+    cout << "\n   4 - Paladino\n";
     cout << "\n\nINUMANOS:";
     cout << "\n   5 - Animal";
     cout << "\n   6 - Troll";
